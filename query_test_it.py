@@ -40,7 +40,7 @@ rag_chain = (
 
 print("🚀 Hope est prête. Interrogation...")
 try:
-    response = rag_chain.invoke("Qual è il ruolo dell'infiammazione cronica nello sviluppo dei tumori secondo lo studio? Rispondi in italiano please.")
+    response = rag_chain.invoke("According to Benjamin Spada, how does comparative oncology help us understand the evolutionary nature of cancer? Per favore, rispondi esclusivamente in italiano.")
     print(f"\n🤖 Hope : {response}")
 except Exception as e:
     print(f"❌ Erreur lors de l'appel : {e}")

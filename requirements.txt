@@ -1,0 +1,20 @@
+# --- Moteur IA & Deep Learning ---
+torch
+transformers
+huggingface_hub
+
+# --- Orchestration RAG & Agents ---
+langchain
+langchain-community
+python-dotenv
+
+# --- Ingestion & Web Scraping ---
+selenium
+webdriver-manager
+beautifulsoup4
+pandas
+openpyxl
+
+# --- Serveur & API ---
+fastapi
+uvicorn

@@ -17,5 +17,5 @@ Le système démontre une robustesse particulière dans la gestion des flux "Cro
 
 ### 1. Récupérer le projet
 ```bash
-git clone git@github.com:Did-web/oncologie-rag-agent.git
+git clone https://github.com/Did-web/oncologie-rag-agent.git
 cd oncologie-rag-agent

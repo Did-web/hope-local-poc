@@ -12,7 +12,7 @@ from langchain_core.output_parsers import StrOutputParser
 
 print("✅ Moteur de base chargé")
 
-# Connexion à ta DB de 1916 fragments
+# Connexion à ta DB de n fragments
 DB_PATH = os.path.join(os.getcwd(), "vectorstore_db")
 embeddings = OllamaEmbeddings(model="nomic-embed-text")
 vector_db = Chroma(persist_directory=DB_PATH, embedding_function=embeddings)
@@ -27,7 +27,7 @@ template = """Tu es Hope. Réponds à la question en utilisant ce contexte :
 Question : {question}"""
 prompt = ChatPromptTemplate.from_template(template)
 
-# Construction de la chaîne SANS utiliser 'langchain.chains'
+# Construction de la chaîne
 def format_docs(docs):
     return "\n\n".join(doc.page_content for doc in docs)
 

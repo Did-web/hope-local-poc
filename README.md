@@ -1,4 +1,4 @@
-# Hope - Agent IA Oncologie (RAG)
+# Hope pour machine locale - Agent IA Oncologie (RAG)
 
 Ce projet contient l'infrastructure Docker pour l'agent IA **Hope**, spécialisé en cancérologie, tournant sur **Atlas2** avec support GPU.
 
@@ -17,5 +17,5 @@ Le système démontre une robustesse particulière dans la gestion des flux "Cro
 
 ### 1. Récupérer le projet
 ```bash
-git clone https://github.com/Did-web/oncologie-rag-agent.git
-cd oncologie-rag-agent
+git clone https://github.com/Did-web/hope-local-poc.git
+cd hope-local-poc
